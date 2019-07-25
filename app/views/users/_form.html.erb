@@ -1,0 +1,22 @@
+<div class="row">
+  <%= form_for @user, html: {class: "col s12"} do |f| %>
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">account_circle</i>
+        <%= f.text_field :name, class: "validate" %>
+        <%= f.label :name %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">email</i>
+        <%= f.text_field :email, class: "validate" %>
+        <%= f.label :email %>
+      </div>
+    </div>
+    <%= button_tag class: "btn waves-effect waves-light", name: "action" do %>
+      Submit
+      <i class="material-icons right">send</i>
+    <% end %>
+  <% end %>
+</div>
