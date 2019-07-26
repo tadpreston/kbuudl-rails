@@ -4,7 +4,7 @@
   border: 1px solid transparent;
   border-radius: 4px;
 }
-.alert-info {
+.alert-notice {
   color: #31708f;
   background-color: #d9edf7;
   border-color: #bce8f1;
@@ -14,7 +14,7 @@
   background-color: #fcf8e3;
   border-color: #faebcc;
 }
-.alert-danger {
+.alert-alert {
   color: #a94442;
   background-color: #f2dede;
   border-color: #ebccd1;
