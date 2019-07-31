@@ -46,6 +46,7 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 4.1', '>= 4.1.1'
   gem 'guard-rspec', '~> 4.7', '>= 4.7.3', require: false
   gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
+  gem 'factory_bot_rails', '~> 5.0', '>= 5.0.2'
 end
 
 group :development do
