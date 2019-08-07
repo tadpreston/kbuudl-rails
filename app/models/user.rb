@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  has_many :credentials
+  has_many :credentials, dependent: :destroy
 
   validates :first_name, presence: true
   validates :last_name, presence: true

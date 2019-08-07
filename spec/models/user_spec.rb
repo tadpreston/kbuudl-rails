@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe User, type: :model do
   describe 'associations' do
-    it { should have_many(:credentials) }
+    it { should have_many(:credentials).dependent(:destroy) }
   end
 
   describe 'validations' do
